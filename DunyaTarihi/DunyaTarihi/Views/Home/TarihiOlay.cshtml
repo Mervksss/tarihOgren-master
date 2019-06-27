@@ -1,0 +1,60 @@
+﻿
+@{
+    ViewBag.Title = "TarihiOlay";
+}
+
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+
+<h2>Tarihi Olaylar</h2>
+
+<div id="olaylar"></div>
+
+
+
+
+
+@section Scripts
+{
+    <script>
+
+
+        var olayID;
+
+        $.ajax({
+            method: "get",
+            url: "/api/Main/GetByUlkeKod",
+            data: {
+                ulkeKod: "TR"
+            },
+            success: function (data) {
+                $.each(data, function (key, value) {
+                    olayID = value.ID;
+                    $("#olaylar").append("<p><a href='/Home/TarihiOlayDetay/" + value.ID + "'>" + value.Baslik + "</a><button id='" + value.ID+"' onclick='Ekle(this)' style='margin-left:50px;'>"
+                        + "Kitaplığıma Ekle" + "</button></p>")
+
+
+                })
+
+            }
+        });
+
+        function Ekle(e) {
+            $.ajax({
+                method: "post",
+                url: "/api/Main/AddToKitaplik/" + e.id,
+                success: function (mesaj) {
+                    $("#" + e.id + "").html('Kitaplığa eklendi');
+                    alert(mesaj);
+
+
+                }
+            });
+        }
+
+
+
+
+
+    </script>
+}

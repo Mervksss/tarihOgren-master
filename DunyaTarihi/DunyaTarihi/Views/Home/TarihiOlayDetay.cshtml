@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "TarihiOlayDetay";
+}
+
+<h2>Tarihi Olay Detay</h2>
+
+<div id="olay"></div>
+
+
+
+@section Scripts
+{
+    <script>
+
+        $.ajax({
+            method: "get",
+            url: "/api/Main/GetByTarihiOlayID/" + 1,
+            success: function (data) {
+                $("#olay").append("<p>deneme</p>");
+
+                $("#olay").append("<p>" + data.Baslik +"</p>");
+            }
+        });
+
+    </script>
+
+}

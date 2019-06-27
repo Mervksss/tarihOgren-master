@@ -1,0 +1,12 @@
+C:\Users\KARAÇUBAN\source\repos\TarihOgren\DATA\bin\Debug\DATA.dll
+C:\Users\KARAÇUBAN\source\repos\TarihOgren\DATA\bin\Debug\DATA.pdb
+C:\Users\KARAÇUBAN\source\repos\TarihOgren\DATA\obj\Debug\DATA.csprojAssemblyReference.cache
+C:\Users\KARAÇUBAN\source\repos\TarihOgren\DATA\obj\Debug\DATA.csproj.CoreCompileInputs.cache
+C:\Users\KARAÇUBAN\source\repos\TarihOgren\DATA\obj\Debug\DATA.dll
+C:\Users\KARAÇUBAN\source\repos\TarihOgren\DATA\obj\Debug\DATA.pdb
+C:\Users\mkara\Downloads\TarihOgren\DATA\bin\Debug\DATA.dll
+C:\Users\mkara\Downloads\TarihOgren\DATA\bin\Debug\DATA.pdb
+C:\Users\mkara\Downloads\TarihOgren\DATA\obj\Debug\DATA.csprojAssemblyReference.cache
+C:\Users\mkara\Downloads\TarihOgren\DATA\obj\Debug\DATA.csproj.CoreCompileInputs.cache
+C:\Users\mkara\Downloads\TarihOgren\DATA\obj\Debug\DATA.dll
+C:\Users\mkara\Downloads\TarihOgren\DATA\obj\Debug\DATA.pdb
